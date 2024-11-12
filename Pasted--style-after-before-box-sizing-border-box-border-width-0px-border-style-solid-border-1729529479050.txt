@@ -1,0 +1,230 @@
+<style>*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }
+::after, ::before { --tw-content: ''; }
+:host, html { line-height: 1.5; text-size-adjust: 100%; tab-size: 4; font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-feature-settings: normal; font-variation-settings: normal; -webkit-tap-highlight-color: transparent; }
+body { margin: 0px; line-height: inherit; }
+hr { height: 0px; color: inherit; border-top-width: 1px; }
+abbr:where([title]) { text-decoration: underline dotted; }
+h1, h2, h3, h4, h5, h6 { font-size: inherit; font-weight: inherit; }
+a { color: inherit; text-decoration: inherit; }
+b, strong { font-weight: bolder; }
+code, kbd, pre, samp { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-feature-settings: normal; font-variation-settings: normal; font-size: 1em; }
+small { font-size: 80%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sub { bottom: -0.25em; }
+sup { top: -0.5em; }
+table { text-indent: 0px; border-color: inherit; border-collapse: collapse; }
+button, input, optgroup, select, textarea { font-family: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 100%; font-weight: inherit; line-height: inherit; letter-spacing: inherit; color: inherit; margin: 0px; padding: 0px; }
+button, select { text-transform: none; }
+button, input:where([type="button"]), input:where([type="reset"]), input:where([type="submit"]) { appearance: button; background-color: transparent; background-image: none; }
+progress { vertical-align: baseline; }
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button { height: auto; }
+[type="search"] { appearance: textfield; outline-offset: -2px; }
+::-webkit-search-decoration { appearance: none; }
+::-webkit-file-upload-button { appearance: button; font: inherit; }
+summary { display: list-item; }
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre { margin: 0px; }
+fieldset { margin: 0px; padding: 0px; }
+legend { padding: 0px; }
+menu, ol, ul { list-style: none; margin: 0px; padding: 0px; }
+dialog { padding: 0px; }
+textarea { resize: vertical; }
+input::placeholder, textarea::placeholder { opacity: 1; color: rgb(156, 163, 175); }
+[role="button"], button { cursor: pointer; }
+:disabled { cursor: default; }
+audio, canvas, embed, iframe, img, object, svg, video { display: block; vertical-align: middle; }
+img, video { max-width: 100%; height: auto; }
+[hidden] { display: none; }
+*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }
+::backdrop { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }
+.mb-4 { margin-bottom: 1rem; }
+.ml-4 { margin-left: 1rem; }
+.mt-6 { margin-top: 1.5rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mr-2 { margin-right: 0.5rem; }
+.mt-2 { margin-top: 0.5rem; }
+.mt-4 { margin-top: 1rem; }
+.flex { display: flex; }
+.hidden { display: none; }
+.h-4 { height: 1rem; }
+.min-h-screen { min-height: 100vh; }
+.w-full { width: 100%; }
+.w-4 { width: 1rem; }
+.max-w-3xl { max-width: 48rem; }
+.flex-1 { flex: 1 1 0%; }
+.list-none { list-style-type: none; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.rounded { border-radius: 0.25rem; }
+.rounded-lg { border-radius: 0.5rem; }
+.border { border-width: 1px; }
+.border-gray-300 { --tw-border-opacity: 1; border-color: rgb(209 213 219 / var(--tw-border-opacity)); }
+.bg-blue-500 { --tw-bg-opacity: 1; background-color: rgb(59 130 246 / var(--tw-bg-opacity)); }
+.bg-gray-100 { --tw-bg-opacity: 1; background-color: rgb(243 244 246 / var(--tw-bg-opacity)); }
+.bg-white { --tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); }
+.p-3 { padding: 0.75rem; }
+.p-6 { padding: 1.5rem; }
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.text-center { text-align: center; }
+.text-2xl { font-size: 1.5rem; line-height: 2rem; }
+.text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+.font-bold { font-weight: 700; }
+.text-white { --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity)); }
+.text-blue-500 { --tw-text-opacity: 1; color: rgb(59 130 246 / var(--tw-text-opacity)); }
+.shadow-md { --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color); box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); }
+.transition { transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+.hover\:bg-blue-600:hover { --tw-bg-opacity: 1; background-color: rgb(37 99 235 / var(--tw-bg-opacity)); }
+.hover\:underline:hover { text-decoration-line: underline; }</style>
+<html lang="en" class=" qkfmxq idc0_350"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employer сhecker</title>
+    <meta name="author" content="Yaroslav and ChatGPT">
+    <meta name="description" content="Generate a useful links to check if a company is good to work for">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="https://cdn.tailwindcss.com/3.4.5"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-GTJSMLBLP4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-GTJSMLBLP4');
+    </script>
+<style>/* ! tailwindcss v3.4.5 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }.mb-4{margin-bottom:1rem}.ml-4{margin-left:1rem}.mt-6{margin-top:1.5rem}.mb-2{margin-bottom:0.5rem}.mr-2{margin-right:0.5rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.flex{display:flex}.hidden{display:none}.h-4{height:1rem}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-4{width:1rem}.max-w-3xl{max-width:48rem}.flex-1{flex:1 1 0%}.list-none{list-style-type:none}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.rounded{border-radius:0.25rem}.rounded-lg{border-radius:0.5rem}.border{border-width:1px}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.p-3{padding:0.75rem}.p-6{padding:1.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-bold{font-weight:700}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246 / var(--tw-text-opacity))}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:bg-blue-600:hover{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity))}.hover\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}</style></head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="w-full max-w-3xl p-6 bg-white rounded-lg shadow-md">
+        <div class="flex items-center justify-between mb-4">
+            <h1 class="text-2xl font-bold text-center flex-1">Employer сhecker</h1>
+            <iframe src="https://ghbtns.com/github-btn.html?user=doutivity&amp;repo=employer-checker&amp;type=star&amp;count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub" class="ml-4">
+            </iframe>
+        </div>
+
+        <textarea id="query" placeholder="Enter your query here" class="w-full p-3 border border-gray-300 rounded mb-4"></textarea>
+        <button onclick="generateLinks()" class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition">
+            Search
+        </button>
+
+        <div class="links-container mt-6" id="links-container"><h3 class="text-xl font-bold mt-4">General</h3><ul class="list-none mt-2"><li class="mb-2"><a href="https://www.google.com/search?q=site%3Adou.ua%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> DOU</a></li><li class="mb-2"><a href="https://www.google.com/search?q=site%3Alinkedin.com%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> LinkedIn</a></li></ul><h3 class="text-xl font-bold mt-4">Legal</h3><ul class="list-none mt-2"><li class="mb-2"><a href="https://www.google.com/search?q=site%3Aopendatabot.ua%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> Opendatabot</a></li><li class="mb-2"><a href="https://www.google.com/search?q=site%3Ayoucontrol.com.ua%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> YouControl</a></li><li class="mb-2"><a href="https://www.google.com/search?q=site%3Aariregister.rik.ee%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> e-Äriregister</a></li><li class="mb-2"><a href="https://www.google.com/search?q=site%3Aiprop-ua.com%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> Торговельна марка</a></li></ul><h3 class="text-xl font-bold mt-4">Business</h3><ul class="list-none mt-2"><li class="mb-2"><a href="https://www.google.com/search?q=site%3Aclutch.co%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> Clutch</a></li><li class="mb-2"><a href="https://www.google.com/search?q=site%3Aupwork.com%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> Upwork</a></li><li class="mb-2"><a href="https://www.google.com/search?q=site%3Agoodfirms.co%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> GoodFirms</a></li><li class="mb-2"><a href="https://www.google.com/search?q=site%3Acrunchbase.com%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> Crunchbase</a></li></ul><h3 class="text-xl font-bold mt-4">Other</h3><ul class="list-none mt-2"><li class="mb-2"><a href="https://www.google.com/search?q=site%3Afacebook.com%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> Facebook</a></li><li class="mb-2"><a href="https://www.google.com/search?q=site%3Ainstagram.com%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> Instagram</a></li><li class="mb-2"><a href="https://www.google.com/search?q=site%3Aglassdoor.com%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> Glassdoor</a></li><li class="mb-2"><a href="https://www.google.com/search?q=site%3Aindeed.com%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> Indeed</a></li><li class="mb-2"><a href="https://www.google.com/search?q=site%3Agithub.com%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> GitHub</a></li><li class="mb-2"><a href="https://www.google.com/search?q=site%3Agitlab.com%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> GitLab</a></li><li class="mb-2"><a href="https://www.google.com/search?q=site%3Aapp.welcometothejungle.com%20playson" target="_blank" class="text-blue-500 hover:underline flex items-center"><img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> Welcome to the Jungle</a></li></ul></div>
+    </div>
+
+<script>
+    const searchGroups = {
+        General: [
+            { name: 'DOU', site: 'dou.ua' },
+            { name: 'LinkedIn', site: 'linkedin.com' }
+        ],
+        Legal: [
+            { name: 'Opendatabot', site: 'opendatabot.ua' },
+            { name: 'YouControl', site: 'youcontrol.com.ua' },
+            { name: 'e-Äriregister', site: 'ariregister.rik.ee' },
+            { name: 'Торговельна марка', site: 'iprop-ua.com' }
+        ],
+        Business: [
+            { name: 'Clutch', site: 'clutch.co' },
+            { name: 'Upwork', site: 'upwork.com' },
+            { name: 'GoodFirms', site: 'goodfirms.co' },
+            { name: 'Crunchbase', site: 'crunchbase.com' }
+        ],
+        Other: [
+            { name: 'Facebook', site: 'facebook.com' },
+            { name: 'Instagram', site: 'instagram.com' },
+            { name: 'Glassdoor', site: 'glassdoor.com' },
+            { name: 'Indeed', site: 'indeed.com' },
+            { name: 'GitHub', site: 'github.com' },
+            { name: 'GitLab', site: 'gitlab.com' },
+            { name: 'Welcome to the Jungle', site: 'app.welcometothejungle.com' }
+        ]
+    };
+
+    const $query = document.getElementById('query');
+    const $linksContainer = document.getElementById('links-container');
+
+    function generateLinks() {
+        const query = $query.value.trim();
+        $linksContainer.innerHTML = '';
+
+        if (!query) {
+            $linksContainer.classList.add('hidden');
+
+            const url = new URL(window.location.href);
+            url.searchParams.delete('q');
+            window.history.pushState({}, '', url);
+
+            return;
+        }
+
+        {
+            const url = new URL(window.location.href);
+            url.searchParams.set('q', query);
+            window.history.pushState({}, '', url);
+        }
+
+        for (const group in searchGroups) {
+            const groupTitle = document.createElement('h3');
+            groupTitle.textContent = group;
+            groupTitle.classList.add('text-xl', 'font-bold', 'mt-4');
+            $linksContainer.appendChild(groupTitle);
+
+            const linkList = document.createElement('ul');
+            linkList.classList.add('list-none', 'mt-2');
+
+            searchGroups[group].forEach(item => {
+                const listItem = document.createElement('li');
+                listItem.classList.add('mb-2');
+
+                const anchor = document.createElement('a');
+                anchor.href = `https://www.google.com/search?q=${encodeURIComponent(`site:${item.site} ${query}`)}`;
+                anchor.target = '_blank';
+                anchor.classList.add('text-blue-500', 'hover:underline', 'flex', 'items-center');
+                anchor.innerHTML = `<img src="https://www.google.com/favicon.ico" class="w-4 h-4 mr-2" alt="Google icon"> ${item.name}`;
+                listItem.appendChild(anchor);
+
+                linkList.appendChild(listItem);
+            });
+
+            $linksContainer.appendChild(linkList);
+        }
+
+        $linksContainer.classList.remove('hidden');
+    }
+
+    {
+        const params = new URLSearchParams(window.location.search);
+        const queryParam = params.get('q');
+        if (queryParam) {
+            $query.value = decodeURIComponent(queryParam);
+            generateLinks();
+        }
+    }
+
+    $query.addEventListener('keydown', function(event) {
+        if (event.key === 'Enter' && !event.shiftKey) {
+            event.preventDefault();
+            generateLinks();
+        }
+    });
+</script>
+
+
+<deepl-input-controller></deepl-input-controller></body></html>

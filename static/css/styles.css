@@ -1,0 +1,68 @@
+body {
+    --text-color: #f8f9fa;
+    --bg-color: #212529;
+    --input-bg: #343a40;
+    --input-border: #495057;
+    --btn-primary-bg: #0056b3;
+    --btn-primary-color: #ffffff;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+.card {
+    background-color: var(--input-bg);
+    border-color: var(--input-border);
+}
+
+.form-control {
+    color: var(--text-color);
+    background-color: var(--input-bg);
+    border-color: var(--input-border);
+}
+
+.btn-primary {
+    background-color: var(--btn-primary-bg);
+    color: var(--btn-primary-color);
+}
+
+.form-check-input {
+    background-color: var(--input-bg);
+    border-color: var(--input-border);
+}
+
+.form-check-input:checked {
+    background-color: var(--btn-primary-bg);
+    border-color: var(--btn-primary-bg);
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.link-item img {
+    width: 16px;
+    height: 16px;
+    margin-right: 0.5rem;
+}
+
+.two-column-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.column {
+    min-width: 0;
+}
+
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .two-column-layout {
+        grid-template-columns: 1fr;
+    }
+}
